@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Nika_resort&spa</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to NIKA resort and spa</h2>
+            <p>Your way to Escape. Drop down to know more about us.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div>
+                <p>Nika Resort and Spa is a peaceful place where comfort meets
+                nature.For those who want to relax,refresh and enjoy quality time away from busy life.
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Accomodations</h3>
+                    <p>Comfortable and well-furnished rooms, cottages, or villas designed to provide a peaceful and relaxing stay. Rooms usually offer scenic views, modern amenities, and a calm environment.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Restaurant and Dinings</h3>
+                    <p>On-site restaurants serving a variety of local, national, and international cuisines. Fresh ingredients and skilled chefs ensure delicious meals for guests throughout the day.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Swimming Pool</h3>
+                    <p>Clean and well-maintained swimming pools for adults and children, offering a refreshing way to relax and enjoy leisure time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="./forest.jpg" alt="NIKA Forest">
+                <img src="./restingchairs.jpg" alt="NIKA restingchairs">
+                <img src="./swimmingpool.jpg" alt="NIKA swimming pool">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+               
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+               
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+               
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 20px; background: #eee;">
+        <p>&copy; NIKA RESORT AND SPA</p>
+    </footer>
+
+</body>
+</html>
