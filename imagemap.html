@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Demonstration - Question 8</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div class="container">
+        <h2>HTML Image Map (Rect, Circle, Poly)</h2>
+        <p>Click on different parts of the image to navigate</p>
+
+        <img src=".jpg"
+             usemap="#workmap"
+             alt="Image Map Demo"
+             width="600"
+             height="400">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Rectangle Area" href="https://www.google.com" target="_blank">
+
+            <area shape="circle" coords="450,100,60" alt="Circle Area" href="https://www.wikipedia.org" target="_blank">
+
+            <area shape="poly" coords="300,200,400,250,350,350,250,320" alt="Polygon Area" href="https://www.github.com" target="_blank">
+        </map>
+    </div>
+
+</body>
+</html>
